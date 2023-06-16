@@ -1,0 +1,42 @@
+:root {
+  --color-backgroun-header:#000000;
+  --color--font:#ffffff;
+  --color--h3:#9bb031;
+  --color--link: rgb(135, 135, 147);
+}
+
+body {
+  background: var(--color-backgroun-header);
+  color: var(--color--font);
+}
+
+#cabecalho {
+  margin: 5rem auto;
+  width: 100vw;
+}
+#cabecalho img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border-radius: 40px;
+}
+#cabecalho h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--color--h3);
+  font-size: 3rem;
+}
+#cabecalho p {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#cabecalho a {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 0;
+  text-decoration: none;
+  color: var(--color--link);
+  align-items: center;
+}/*# sourceMappingURL=index.css.map */
