@@ -11,14 +11,14 @@ body {
 }
 
 #cabecalho {
-  margin: 5rem auto;
-  width: 100vw;
+  margin: 8rem auto;
+  width: 40vw;
 }
 #cabecalho img {
   display: block;
   margin: 0 auto;
   margin-bottom: 1rem;
-  border-radius: 40px;
+  border-radius: 50px;
 }
 #cabecalho h3 {
   text-align: center;
@@ -27,16 +27,64 @@ body {
   font-size: 3rem;
 }
 #cabecalho p {
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   text-align: center;
 }
 #cabecalho a {
   display: block;
-  font-size: 30px;
+  font-size: 3rem;
   text-align: center;
-  padding: 20px;
+  padding: 1.5rem;
   margin: 0 0;
   text-decoration: none;
   color: var(--color--link);
   align-items: center;
+  border: 1px solid var(--color--h3);
+  border-radius: 50px;
+}
+
+#container--principal {
+  text-align: center;
+  border-bottom: 1px solid #9bb031;
+}
+#container--principal h3 {
+  border-top: 1px solid #9bb031;
+  padding-top: 10rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--color--h3);
+  font-size: 3rem;
+}
+#container--principal a {
+  display: block;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  text-decoration: none;
+  color: var(--color--link);
+  align-items: center;
+  border: 1px solid var(--color--h3);
+  border-radius: 50px;
+}
+#container--principal .imagem img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: scroll;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  background-size: cover;
+}
+
+.section--principal {
+  margin: 4rem auto;
+  width: 40vw;
+}
+
+footer {
+  text-align: center;
+  margin: 3rem;
+  color: #9bb031;
 }/*# sourceMappingURL=index.css.map */
